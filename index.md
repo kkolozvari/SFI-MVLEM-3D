@@ -1,6 +1,6 @@
 # SFI-MVLEM-3D: three-dimensional, four-node, macroscopic element for RC walls with shear-flexural interaction
 
-[K. Kolozvari](kkolozvari@fullerton.edu), K. Kalbasi, K. Orakcal, L. M. Massone & J. W. Wallace
+[K. Kolozvari](mailto:kkolozvari@fullerton.edu), K. Kalbasi, K. Orakcal, L. M. Massone & J. W. Wallace
 
 ## Description
 
