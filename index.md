@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+## SFI-MVLEM-3D: three-dimensional, four-node, macroscopic element for RC walls
 
-You can use the [editor on GitHub](https://github.com/kkolozvari/SFI-MVLEM-3D/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Description
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The SFI-MVLEM-3D model is an extension of the two-dimensional, two-node Shear-Flexure-Interaction Multiple-Vertical-Line-Element-Model ([SFI-MVLEM](https://opensees.berkeley.edu/wiki/index.php/SFI_MVLEM_-_Cyclic_Shear-Flexure_Interaction_Model_for_RC_Walls)). The baseline SFI-MVLEM, which is essentially a line element for rectangular walls subjected to in-plane loading, is extended in this study to a three-dimensional model formulation by applying geometric transformation of the element degrees of freedom that convert it into a four-node element formulation, as well as by incorporating linear elastic out-of-plane behavior based on the Kirchhoff plate theory. 
+
 
 ### Markdown
 
