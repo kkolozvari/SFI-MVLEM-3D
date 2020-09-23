@@ -10,8 +10,8 @@ The SFI-MVLEM-3D model is an extension of the two-dimensional, two-node Shear-Fl
 
 ### SFI-MVLEM-3D Input
 ```markdown
-**element SFI-MVLEM-3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -width {Widths} -mat {Material_tags} 
-<-CoR c> <-thickMod tMod> <-Poisson Nu>**
+element SFI-MVLEM-3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -width {Widths} -mat {Material_tags} 
+<-CoR c> <-thickMod tMod> <-Poisson Nu>
 ```
 
 | parameter | description |
