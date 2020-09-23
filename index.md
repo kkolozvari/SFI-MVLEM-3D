@@ -1,8 +1,8 @@
-[K. Kolozvari](mailto:kkolozvari@fullerton.edu), CSU Fullerton 
-K. Kalbasi, UCLA
-K. Orakcal, Bogazici University
-L. M. Massone, University of Chile, Santiago
-J. W. Wallace, UCLA
+[K. Kolozvari](mailto:kkolozvari@fullerton.edu), CSU Fullerton<br/>
+K. Kalbasi, UCLA<br/>
+K. Orakcal, Bogazici University<br/>
+L. M. Massone, University of Chile, Santiago<br/>
+J. W. Wallace, UCLA<br/>
 
 ## Description
 
