@@ -21,7 +21,7 @@ element SFI-MVLEM-3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -wid
 | m | number of element macro-fibers|
 | {Thicknesses} | array of m macro-fiber thicknesses|
 | {Widths} | array of m macro-fiber widths |
-| {Material_tags}| array of m macro-fiber nDMaterial1 tags|
+| {Material_tags}| array of m macro-fiber nDMaterial [FSAM](https://opensees.berkeley.edu/wiki/index.php/FSAM_-_2D_RC_Panel_Constitutive_Behavior) tags|
 | c | location of center of rotation from the base (optional, default = 0.4 (recommended))|
 | tMod	| thickness modifier for out-of-plane bending (optional, default = 1.0)|
 | Nu | Poisson ratio for out-of-plane bending (optional, default = 0.25)|
