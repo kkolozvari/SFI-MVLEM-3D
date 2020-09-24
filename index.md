@@ -31,6 +31,8 @@ element SFI-MVLEM-3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -wid
 
 ## Example
 
+Specimen TUB(Beyer et al. 2008) is analyzed using the SFI-MVLEM-3D).
+
 ![TUB](https://user-images.githubusercontent.com/53920372/94061732-a009a900-fd9a-11ea-8d28-2ae4981326f6.JPG)
 **Figure 2: SFI-MVLEM-3D Model of specimen TUB**
 
