@@ -47,7 +47,7 @@ The following recorders are available with the SFI_MVLEM_3D element.
 
 ## Example
 
-Specimen TUB (Beyer et al. 2008) is analyzed using the SFI-MVLEM-3D. Figure 2a shows the photo of the test specimen and the multidirectional displacement pattern applied at the top of the wall, while Figure 2b-c show the MVLEM_3D model of specimen TUB.
+Specimen TUB (Beyer et al. 2008) is analyzed using the SFI-MVLEM-3D. Figure 2a shows the photo of the test specimen and the multidirectional displacement pattern applied at the top of the wall, while Figure 2b-c show the SFI_MVLEM_3D model of specimen TUB.
 
 ![TUB](https://user-images.githubusercontent.com/53920372/94061732-a009a900-fd9a-11ea-8d28-2ae4981326f6.JPG)
 **Figure 2: SFI-MVLEM-3D Model of specimen TUB**
