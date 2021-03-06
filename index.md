@@ -9,7 +9,7 @@ J. W. Wallace, UCLA<br/>
 
 ## Description
 
-The SFI_MVLEM_3D model (Figure 1a) is a three-dimensional four-node element with 24 DOFs that incorporates axial-flexural-shear interaction and can be used for nonlinear analysis of non-rectangular reinforced concrete walls subjected to multidirectional loading. The SFI_MVLEM_3D model is an extension of the two-dimensional, two-node Shear-Flexure-Interaction Multiple-Vertical-Line-Element-Model ([SFI-MVLEM](https://opensees.berkeley.edu/wiki/index.php/SFI_MVLEM_-_Cyclic_Shear-Flexure_Interaction_Model_for_RC_Walls)). The baseline SFI-MVLEM, which is essentially a line element for rectangular walls subjected to in-plane loading, is extended in this study to a three-dimensional model formulation by applying geometric transformation of the element degrees of freedom that converted it into a four-node element formulation (Figure 1b), as well as by incorporating linear elastic out-of-plane behavior based on the Kirchhoff plate theory (Figure 1c). The in-plane and the out-of-plane element behaviors are uncoupled in the present model.
+The SFI-MVLEM-3D model (Figure 1a) is a three-dimensional four-node element with 24 DOFs that incorporates axial-flexural-shear interaction and can be used for nonlinear analysis of non-rectangular reinforced concrete walls subjected to multidirectional loading. The SFI-MVLEM_3D model is an extension of the two-dimensional, two-node Shear-Flexure-Interaction Multiple-Vertical-Line-Element-Model ([SFI-MVLEM](https://opensees.berkeley.edu/wiki/index.php/SFI_MVLEM_-_Cyclic_Shear-Flexure_Interaction_Model_for_RC_Walls)). The baseline SFI-MVLEM, which is essentially a line element for rectangular walls subjected to in-plane loading, is extended in this study to a three-dimensional model formulation by applying geometric transformation of the element degrees of freedom that converted it into a four-node element formulation (Figure 1b), as well as by incorporating linear elastic out-of-plane behavior based on the Kirchhoff plate theory (Figure 1c). The in-plane and the out-of-plane element behaviors are uncoupled in the present model.
 
 
 ![Model_Formulation](https://user-images.githubusercontent.com/53920372/94061362-21147080-fd9a-11ea-8a73-f325dc96206a.JPG)
@@ -17,7 +17,7 @@ The SFI_MVLEM_3D model (Figure 1a) is a three-dimensional four-node element with
 
 ### SFI-MVLEM-3D Input
 ```markdown
-element SFI-MVLEM-3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -width {Widths} -mat {Material_tags} 
+element SFI_MVLEM_3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -width {Widths} -mat {Material_tags} 
 <-CoR c> <-thickMod tMod> <-Poisson Nu>  <-Density Dens>
 ```
 
@@ -36,7 +36,7 @@ element SFI-MVLEM-3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -wid
 
 ### Recorders
 
-The following recorders are available with the SFI_MVLEM_3D element.
+The following recorders are available with the SFI-MVLEM-3D element.
 
 | recorder | description |
 |----------|------------|
@@ -47,7 +47,7 @@ The following recorders are available with the SFI_MVLEM_3D element.
 
 ## Example
 
-Specimen TUB (Beyer et al. 2008) is analyzed using the SFI-MVLEM-3D. Figure 2a shows the photo of the test specimen and the multidirectional displacement pattern applied at the top of the wall, while Figure 2b-c show the MVLEM_3D model of specimen TUB.
+Specimen TUB (Beyer et al. 2008) is analyzed using the SFI-MVLEM-3D. Figure 2a shows the photo of the test specimen and the multidirectional displacement pattern applied at the top of the wall, while Figure 2b-c show the SFI-MVLEM-3D model of specimen TUB.
 
 ![TUB](https://user-images.githubusercontent.com/53920372/94061732-a009a900-fd9a-11ea-8d28-2ae4981326f6.JPG)
 **Figure 2: SFI-MVLEM-3D Model of specimen TUB**
@@ -55,8 +55,8 @@ Specimen TUB (Beyer et al. 2008) is analyzed using the SFI-MVLEM-3D. Figure 2a s
 Figure 3 compares experimentally measured and analytically predicted load deformation behavior of the specimen TUB in E-W, N-S, and diagonal loading directions. The model provides accurate predictions of the lateral load capacity and the stiffness under cyclic loading in loading directions parallel to the principal axes of the cross-section (E-W, N-S direction). Analysis results overestimate the lateral load capacity in diagonal loading directions due to plane-sections-remain-plane assumption implemented in the model formulation that cannot capture pronounced shear lag effect observed in the test specimen.
 
 ![TUB_SFI_MVLEM_3D](https://user-images.githubusercontent.com/53920372/110193323-287b8380-7de8-11eb-8202-f557befac055.JPG)
-**Figure 3: Experimental vs. SFI-MVLEM_3D load-deforamtion response of specimen TUB**
+**Figure 3: Experimental vs. SFI-MVLEM-3D load-deforamtion response of specimen TUB**
 
 ## References
-K. Kolozvari, K. Kalbasi, K. Orakcal & J. W. Wallace (under review), "Three-dimensional shear-flexure interaction model for analysis of non-planar reinforced concrete walls", Journal of Building Engineering.
+K. Kolozvari, K. Kalbasi, K. Orakcal & J. W. Wallace (under review), "Three-dimensional shear-flexure interaction model for analysis of non-planar reinforced concrete walls", Journal of Building Engineering.<br/>
 K. Kolozvari, K. Kalbasi, K. Orakcal, L. M. Massone & J. W. Wallace (2019), "Shear–flexure-interaction models for planar and flanged reinforced concrete walls", Bulletin of Eathquake Engineering, 17, pages 6391–6417. [link](https://link.springer.com/article/10.1007/s10518-019-00658-5)
