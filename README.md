@@ -18,7 +18,7 @@ The SFI-MVLEM-3D model (Figure 1a) is a three-dimensional four-node element with
 ### SFI-MVLEM-3D Input
 ```markdown
 element SFI_MVLEM_3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -width {Widths} -mat {Material_tags} 
-<-CoR c> <-thickMod tMod> <-Poisson Nu>  <-Density Dens>
+<-CoR c> <-ThickMod tMod> <-Poisson Nu>  <-Density Dens>
 ```
 
 | parameter | description |
