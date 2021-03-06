@@ -54,5 +54,5 @@ Figure 3 compares experimentally measured and analytically predicted load deform
 **Figure 3: Experimental vs. SFI-MVLEM_3D load-deforamtion response of specimen TUB**
 
 ## References
-
+K. Kolozvari, K. Kalbasi, K. Orakcal & J. W. Wallace (under review), "Three-dimensional shear-flexure interaction model for analysis of non-planar reinforced concrete walls", Journal of Building Engineering.
 K. Kolozvari, K. Kalbasi, K. Orakcal, L. M. Massone & J. W. Wallace (2019), "Shear–flexure-interaction models for planar and flanged reinforced concrete walls", Bulletin of Eathquake Engineering, 17, pages 6391–6417. [link](https://link.springer.com/article/10.1007/s10518-019-00658-5)
