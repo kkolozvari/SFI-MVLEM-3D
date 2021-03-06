@@ -15,7 +15,7 @@ The SFI-MVLEM-3D model (Figure 1a) is a three-dimensional four-node element with
 ![Model_Formulation](https://user-images.githubusercontent.com/53920372/94061362-21147080-fd9a-11ea-8a73-f325dc96206a.JPG)
 **Figure 1: SFI-MVLEM-3D Element Formulation**
 
-### SFI_MVLEM_3D Input
+### SFI-MVLEM-3D Input
 ```markdown
 element SFI_MVLEM_3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -width {Widths} -mat {Material_tags} 
 <-CoR c> <-thickMod tMod> <-Poisson Nu>  <-Density Dens>
@@ -55,7 +55,7 @@ Specimen TUB (Beyer et al. 2008) is analyzed using the SFI-MVLEM-3D. Figure 2a s
 Figure 3 compares experimentally measured and analytically predicted load deformation behavior of the specimen TUB in E-W, N-S, and diagonal loading directions. The model provides accurate predictions of the lateral load capacity and the stiffness under cyclic loading in loading directions parallel to the principal axes of the cross-section (E-W, N-S direction). Analysis results overestimate the lateral load capacity in diagonal loading directions due to plane-sections-remain-plane assumption implemented in the model formulation that cannot capture pronounced shear lag effect observed in the test specimen.
 
 ![TUB_SFI_MVLEM_3D](https://user-images.githubusercontent.com/53920372/110193323-287b8380-7de8-11eb-8202-f557befac055.JPG)
-**Figure 3: Experimental vs. SFI-MVLEM_3D load-deforamtion response of specimen TUB**
+**Figure 3: Experimental vs. SFI-MVLEM-3D load-deforamtion response of specimen TUB**
 
 ## References
 K. Kolozvari, K. Kalbasi, K. Orakcal & J. W. Wallace (under review), "Three-dimensional shear-flexure interaction model for analysis of non-planar reinforced concrete walls", Journal of Building Engineering.<br/>
