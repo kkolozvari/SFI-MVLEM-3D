@@ -1,3 +1,6 @@
+# SFI-MVLEM-3D
+three-dimensional, four-node, macroscopic element for RC walls with shear-flexural interaction
+
 [K. Kolozvari](mailto:kkolozvari@fullerton.edu), CSU Fullerton<br/>
 K. Kalbasi, CSU Fullerton<br/>
 K. Orakcal, Bogazici University<br/>
@@ -6,7 +9,8 @@ J. W. Wallace, UCLA<br/>
 
 ## Description
 
-The SFI-MVLEM-3D model is an extension of the two-dimensional, two-node Shear-Flexure-Interaction Multiple-Vertical-Line-Element-Model ([SFI-MVLEM](https://opensees.berkeley.edu/wiki/index.php/SFI_MVLEM_-_Cyclic_Shear-Flexure_Interaction_Model_for_RC_Walls)). The baseline SFI-MVLEM, which is essentially a line element for rectangular walls subjected to in-plane loading, is extended in this study to a three-dimensional model formulation by applying geometric transformation of the element degrees of freedom that convert it into a four-node element formulation, as well as by incorporating linear elastic out-of-plane behavior based on the Kirchhoff plate theory. 
+The SFI_MVLEM_3D model (Figure 1a) is a three-dimensional four-node element with 24 DOFs that incorporates axial-flexural-shear interaction and can be used for nonlinear analysis of non-rectangular reinforced concrete walls subjected to multidirectional loading. The SFI_MVLEM_3D model is an extension of the two-dimensional, two-node Shear-Flexure-Interaction Multiple-Vertical-Line-Element-Model ([SFI-MVLEM](https://opensees.berkeley.edu/wiki/index.php/SFI_MVLEM_-_Cyclic_Shear-Flexure_Interaction_Model_for_RC_Walls)). The baseline SFI-MVLEM, which is essentially a line element for rectangular walls subjected to in-plane loading, is extended in this study to a three-dimensional model formulation by applying geometric transformation of the element degrees of freedom that converted it into a four-node element formulation (Figure 1b), as well as by incorporating linear elastic out-of-plane behavior based on the Kirchhoff plate theory (Figure 1c). The in-plane and the out-of-plane element behaviors are uncoupled in the present model.
+
 
 ![Model_Formulation](https://user-images.githubusercontent.com/53920372/94061362-21147080-fd9a-11ea-8a73-f325dc96206a.JPG)
 **Figure 1: SFI-MVLEM-3D Element Formulation**
