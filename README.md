@@ -49,10 +49,10 @@ The following recorders are available with the SFI-MVLEM-3D element.
 
 Specimen TUC (Constantin 2016) is analyzed using the SFI-MVLEM-3D. Figure 2a shows the photo of the test specimen and the multidirectional displacement pattern applied at the top of the wall, while Figure 2b-c show the SFI-MVLEM-3D model of specimen TUC.
 
-![TUC_Model](https://user-images.githubusercontent.com/53920372/110258194-2cc5af00-7f56-11eb-93cf-1c256039cb16.jpg)
+![TUC_Model2](https://user-images.githubusercontent.com/53920372/110258396-47e4ee80-7f57-11eb-9a7c-bc179c2eba76.jpg)
 **Figure 2: SFI-MVLEM-3D Model of specimen TUC**
 
-Figure 3 compares experimentally measured and analytically predicted load deformation behavior of the specimen TUC in E-W, N-S, and diagonal loading directions. The model provides accurate predictions of the lateral load capacity and the stiffness under cyclic loading in loading directions parallel to the principal axes of the cross-section (E-W, N-S direction). Analysis results overestimate the lateral load capacity in diagonal loading directions due to plane-sections-remain-plane assumption implemented in the model formulation that cannot capture pronounced shear lag effect observed in the test specimen.
+Figure 3 compares measured and simulated load-deformation responses for specimen TUC in E-W (Figure 3a) and N-S (Figure 3b) directions, as well as for diagonal cycles between positions E-F (Figure 3c) and G-H (Figure 3d). As results comparisons illustrate, the SFI-MVLEM-3D predicts well the overall strength and stiffness of the wall for loading cycles in E-W (Figure 3a) and N-S (Figure 3b) directions where the behavior of the specimen was primarily in the linear elastic range since the maximum magnitude of displacements applied at the top of the wall corresponded to a drift level of only 1.0%. For diagonal cycles (Figure 3c and Figure 3d), the model slightly overestimates the initial stiffness of the specimens, but accurately captures the overall SRSS lateral load resisted by the specimen, with the only exception that the lateral load is overestimated during the last loading cycles corresponding to the largest drift of 2.5%. The cyclic stiffness and pinching characteristics of the wall are well-predicted by the model.
 
 ![TUC_LD](https://user-images.githubusercontent.com/53920372/110258200-33ecbd00-7f56-11eb-8f8a-00ffede08418.jpg)
 **Figure 3: Experimental vs. SFI-MVLEM-3D load-deforamtion response of specimen TUC**
