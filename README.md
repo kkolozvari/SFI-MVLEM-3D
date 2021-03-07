@@ -47,15 +47,20 @@ The following recorders are available with the SFI-MVLEM-3D element.
 
 ## Example
 
-Specimen TUB (Beyer et al. 2008) is analyzed using the SFI-MVLEM-3D. Figure 2a shows the photo of the test specimen and the multidirectional displacement pattern applied at the top of the wall, while Figure 2b-c show the SFI-MVLEM-3D model of specimen TUB.
+Specimen TUC (Constantin 2016) is analyzed using the SFI-MVLEM-3D. Figure 2a shows the photo of the test specimen and the multidirectional displacement pattern applied at the top of the wall, while Figure 2b-c show the SFI-MVLEM-3D model of specimen TUC.
 
-![TUB](https://user-images.githubusercontent.com/53920372/94061732-a009a900-fd9a-11ea-8d28-2ae4981326f6.JPG)
-**Figure 2: SFI-MVLEM-3D Model of specimen TUB**
+![TUC_Model](https://user-images.githubusercontent.com/53920372/110258194-2cc5af00-7f56-11eb-93cf-1c256039cb16.jpg)
+**Figure 2: SFI-MVLEM-3D Model of specimen TUC**
 
-Figure 3 compares experimentally measured and analytically predicted load deformation behavior of the specimen TUB in E-W, N-S, and diagonal loading directions. The model provides accurate predictions of the lateral load capacity and the stiffness under cyclic loading in loading directions parallel to the principal axes of the cross-section (E-W, N-S direction). Analysis results overestimate the lateral load capacity in diagonal loading directions due to plane-sections-remain-plane assumption implemented in the model formulation that cannot capture pronounced shear lag effect observed in the test specimen.
+Figure 3 compares experimentally measured and analytically predicted load deformation behavior of the specimen TUC in E-W, N-S, and diagonal loading directions. The model provides accurate predictions of the lateral load capacity and the stiffness under cyclic loading in loading directions parallel to the principal axes of the cross-section (E-W, N-S direction). Analysis results overestimate the lateral load capacity in diagonal loading directions due to plane-sections-remain-plane assumption implemented in the model formulation that cannot capture pronounced shear lag effect observed in the test specimen.
 
-![TUB_SFI_MVLEM_3D](https://user-images.githubusercontent.com/53920372/110193323-287b8380-7de8-11eb-8202-f557befac055.JPG)
-**Figure 3: Experimental vs. SFI-MVLEM-3D load-deforamtion response of specimen TUB**
+![TUC_LD](https://user-images.githubusercontent.com/53920372/110258200-33ecbd00-7f56-11eb-8f8a-00ffede08418.jpg)
+**Figure 3: Experimental vs. SFI-MVLEM-3D load-deforamtion response of specimen TUC**
+
+Side-by-side comparison of the analytically-obtained vertical strains (Figure 4a-c.1) and shear stresses along wall base (Figure 4a-c.2) demonstrates the capability of the model to capture the interaction between the axial tensile/compressive strains (and resulting stresses) and the in-plane shear stresses developing in the panel-fibers of the SFI-MVLEM-3D elements. Results presented in Figure 4 clearly illustrate that for each of the loading positions, the majority of the shear force demand imposed at the wall is resisted by the regions (panel-fibers) that are subjected to axial compression, while little-to-no shear stress occurs in the panel-fibers subjected to tension. Commonly used fiber-based models that treat axial/flexural and shear behaviors as uncoupled (e.g., displacement based element in OpenSees, shear wall element in Perform 3D) cannot capture this highly non-uniform distribution of shear demands across the wall cross-section and may be subject to considerable bias in predicting shear demands developing in the piers (flanges, web) of non-planar walls subjected to multi-directional seismic actions.
+
+![TUC Base Stress Strain ALL - Landscape](https://user-images.githubusercontent.com/53920372/110258204-3e0ebb80-7f56-11eb-80ba-b55c43912d0b.jpg)
+**Figure 4: Experimental vs. SFI-MVLEM-3D load-deforamtion response of specimen TUC**
 
 ## References
 K. Kolozvari, K. Kalbasi, K. Orakcal & J. W. Wallace (under review), "Three-dimensional shear-flexure interaction model for analysis of non-planar reinforced concrete walls", Journal of Building Engineering.<br/>
