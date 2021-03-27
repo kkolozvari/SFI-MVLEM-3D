@@ -59,7 +59,7 @@ Figure 3 compares measured and simulated load-deformation responses for specimen
 Figure 5 shows crack propagation predicted by the SFI-MVLEM-3D model for specimen TUC during the initial cycles of the test. It can be obsered from the figure that crack orientations and distributions are reasonable given the different loading directions imposed on the model.   
 
 ![TUB_cracks_1](https://user-images.githubusercontent.com/53920372/112706048-e7aee180-8e5e-11eb-8f80-8eeb8b91d6f2.gif)<br/>
-**Figure 4: Crack propagation for specimen TUC**
+**Figure 4: Crack propagation for specimen TUC predicted using the SFI-MVLEM-3D**
 
 Side-by-side comparison of the analytically-obtained vertical strains (Figure 5a-c.1) and shear stresses along wall base (Figure 5a-c.2) demonstrates the capability of the model to capture the interaction between the axial tensile/compressive strains (and resulting stresses) and the in-plane shear stresses developing in the panel-fibers of the SFI-MVLEM-3D elements. Results presented in Figure 5 clearly illustrate that for each of the loading positions, the majority of the shear force demand imposed at the wall is resisted by the regions (panel-fibers) that are subjected to axial compression, while little-to-no shear stress occurs in the panel-fibers subjected to tension. Commonly used fiber-based models that treat axial/flexural and shear behaviors as uncoupled (e.g., displacement based element in OpenSees, shear wall element in Perform 3D) cannot capture this highly non-uniform distribution of shear demands across the wall cross-section and may be subject to considerable bias in predicting shear demands developing in the piers (flanges, web) of non-planar walls subjected to multi-directional seismic actions.
 
