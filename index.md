@@ -67,5 +67,5 @@ Side-by-side comparison of the analytically-obtained vertical strains (Figure 5a
 **Figure 5: Vertical strains (1) and shear stresses (2) at the base of wall specimen TUB at: a) Position E, b) Position G, and c) Position C. Positive (compressive) strains are shown at the outer face of the wall; negative (tensile) strains are plotted at the inner face of the wall. A magnitude scale for strains or stresses is provided in the upper left corner of each plot**
 
 ## References
-K. Kolozvari, K. Kalbasi, K. Orakcal & J. W. Wallace (under review), "Three-dimensional shear-flexure interaction model for analysis of non-planar reinforced concrete walls", Journal of Building Engineering.<br/>
+K. Kolozvari, K. Kalbasi, K. Orakcal & J. W. Wallace (2021), "Three-dimensional shear-flexure interaction model for analysis of non-planar reinforced concrete walls", Journal of Building Engineering, 44, 102946. [link](https://www.sciencedirect.com/science/article/pii/S2352710221008044)<br/>
 K. Kolozvari, K. Kalbasi, K. Orakcal, L. M. Massone & J. W. Wallace (2019), "Shear–flexure-interaction models for planar and flanged reinforced concrete walls", Bulletin of Eathquake Engineering, 17, pages 6391–6417. [link](https://link.springer.com/article/10.1007/s10518-019-00658-5)
