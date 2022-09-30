@@ -46,7 +46,7 @@ The following recorders are available with the SFI-MVLEM-3D element.
 
 ## Example
 
-Specimen TUC (Constantin 2016) is analyzed using the SFI-MVLEM-3D. Figure 2a shows the photo of the test specimen and the multidirectional displacement pattern applied at the top of the wall, while Figure 2b-c show the SFI-MVLEM-3D model of specimen TUC.
+Specimen TUC (Constantin 2016) is analyzed using the SFI-MVLEM-3D. Figure 2a shows the photo of the test specimen and the multidirectional displacement pattern applied at the top of the wall, while Figure 2b-c show the SFI-MVLEM-3D model of specimen TUC. **To access example files click on "View on Github" at the top of the page.**
 
 ![TUC_Model2](https://user-images.githubusercontent.com/53920372/110258396-47e4ee80-7f57-11eb-9a7c-bc179c2eba76.jpg)<br/>
 **Figure 2: SFI-MVLEM-3D Model of specimen TUC**
