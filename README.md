@@ -7,7 +7,7 @@ K. Orakcal, Bogazici University<br/>
 L. M. Massone, University of Chile, Santiago<br/>
 J. W. Wallace, UCLA<br/>
 
-Tangent stiffness refinement to include interaction of stress components by:
+Tangent stiffness refinement to include interaction of stress components by:<br/>
 Zakariya Waezi (University of Canterbury)<br/>
 Rajesh Dhakal (University of Canterbury <br/>
 
