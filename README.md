@@ -7,6 +7,10 @@ K. Orakcal, Bogazici University<br/>
 L. M. Massone, University of Chile, Santiago<br/>
 J. W. Wallace, UCLA<br/>
 
+Tangent stiffness refinement to include interaction of stress components by:<br/>
+Zakariya Waezi, University of Canterbury, NZ<br/>
+Rajesh Dhakal, University of Canterbury, NZ<br/>
+
 ## Description
 
 The SFI-MVLEM-3D model (Figure 1a) is a three-dimensional four-node element with 24 DOFs that incorporates axial-flexural-shear interaction and can be used for nonlinear analysis of non-rectangular reinforced concrete walls subjected to multidirectional loading. The SFI-MVLEM-3D model is an extension of the two-dimensional, two-node Shear-Flexure-Interaction Multiple-Vertical-Line-Element-Model ([SFI-MVLEM](https://opensees.berkeley.edu/wiki/index.php/SFI_MVLEM_-_Cyclic_Shear-Flexure_Interaction_Model_for_RC_Walls)). The baseline SFI-MVLEM, which is essentially a line element for rectangular walls subjected to in-plane loading, is extended in this study to a three-dimensional model formulation by applying geometric transformation of the element degrees of freedom that converted it into a four-node element formulation (Figure 1b), as well as by incorporating linear elastic out-of-plane behavior based on the Kirchhoff plate theory (Figure 1c). The in-plane and the out-of-plane element behaviors are uncoupled in the present model.
@@ -17,7 +21,7 @@ The SFI-MVLEM-3D model (Figure 1a) is a three-dimensional four-node element with
 ### SFI-MVLEM-3D Input
 ```markdown
 element SFI_MVLEM_3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -width {Widths} -mat {Material_tags} 
-<-CoR c> <-ThickMod tMod> <-Poisson Nu>  <-Density Dens>
+<-CoR c> <-ThickMod tMod> <-Poisson Nu>  <-Density Dens> <-Coupling Cpl>
 ```
 
 | parameter | description |
@@ -32,6 +36,7 @@ element SFI_MVLEM_3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -wid
 | tMod	| thickness modifier for out-of-plane bending behavior (optional; default = 0.63, which is equivalent to 25% of uncracked stiffness)|
 | Nu | Poisson ratio for out-of-plane bending (optional, default = 0.25)|
 | Dens | element density (optional, default = 0.00)|
+| Cpl | coupling between stress components in the stiffness matrix, can only be 0 (=no coupling), 1 (=just coupling between axial stresses) or 2 (=complete coupling between stress components) (optional, default = 0)
 
 ### Recorders
 
