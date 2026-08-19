@@ -17,7 +17,7 @@ The SFI-MVLEM-3D model (Figure 1a) is a three-dimensional four-node element with
 ### SFI-MVLEM-3D Input
 ```markdown
 element SFI_MVLEM_3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -width {Widths} -mat {Material_tags} 
-<-CoR c> <-ThickMod tMod> <-Poisson Nu>  <-Density Dens>
+<-CoR c> <-ThickMod tMod> <-Poisson Nu>  <-Density Dens> <-Coupling Cpl>
 ```
 
 | parameter | description |
@@ -32,6 +32,7 @@ element SFI_MVLEM_3D eleTag iNode jNode kNode lNode m  -thick {Thicknesses} -wid
 | tMod	| thickness modifier for out-of-plane bending behavior (optional; default = 0.63, which is equivalent to 25% of uncracked stiffness)|
 | Nu | Poisson ratio for out-of-plane bending (optional, default = 0.25)|
 | Dens | element density (optional, default = 0.00)|
+| Cpl | coupling between stress components in the stiffness matrix, can only be 0 (=no coupling), 1 (=just coupling between axial stresses) or 2 (=complete coupling between stress components) (optional, default = 0)
 
 ### Recorders
 
